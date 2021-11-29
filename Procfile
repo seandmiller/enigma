@@ -1,1 +1,1 @@
-web: web: uvicorn main:app --workers 4
+web: web: uvicorn eni:app --workers 4
