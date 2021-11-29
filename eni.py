@@ -46,14 +46,6 @@ class EnigmaMachine:
         self.plug[letter_swap2] = letter_swap1
         idx += 2
 
-
-
-    
-
-      
-
-
-
   def rotate(self,rotor : list , rotation : int):
     
        for _ in range(rotation):
