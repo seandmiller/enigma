@@ -1,1 +1,1 @@
-web:  uvicorn.run('eni:app', host='0.0.0.0', port=5000, reload=True)
+web: uvicorn main:app --workers 4
