@@ -1,1 +1,1 @@
-web: uvicorn eni:app
+web: gunicorn eni:app
