@@ -1,1 +1,1 @@
-web: uvicorn eni:app --workers 4
+web: uvicorn eni:app --host 0.0.0.0 --port $PORT
