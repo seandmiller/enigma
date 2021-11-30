@@ -1,1 +1,1 @@
-web: uvicorn eni:app
+web: uvicorn eni:app host='0.0.0.0'
