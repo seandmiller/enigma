@@ -1,1 +1,1 @@
-web: gunicorn eni:app
+web: uvicorn eni:app --reload --port 5000
