@@ -1,1 +1,1 @@
-web: uvicorn eni:app --reload --port 5000
+web: uvicorn eni:app
