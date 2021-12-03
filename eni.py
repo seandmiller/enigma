@@ -6,7 +6,8 @@ app = FastAPI()
 origins = [
     'http://localhost:3000',
     'https://localhost:3000',
-    'https://localhost:3000/'
+    'https://localhost:3000/',
+    'https://elated-chandrasekhar-fb6fc6.netlify.app/'
 ]
 app.add_middleware(
     CORSMiddleware,
