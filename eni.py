@@ -7,7 +7,8 @@ origins = [
     'http://localhost:3000',
     'https://localhost:3000',
     'https://localhost:3000/',
-    'https://enigmasean.netlify.app/'
+    'https://enigmasean.netlify.app/',
+    'http://enigmasean.netlify.app/'
 ]
 app.add_middleware(
     CORSMiddleware,
