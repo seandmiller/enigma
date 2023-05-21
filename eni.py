@@ -104,5 +104,5 @@ def encrypt(rotors ,x,y,z,  word: str, plug_board: str ):
   eni = EnigmaMachine(rotors, settings, plug_board)
   return {'token' : eni.enigma(word.upper()), 'settings': [rotors,settings] }
 
-# if __name__ == '__main__':
-#   uvicorn.run('eni:app', host='127.0.0.1', port=5000, reload=True)
+if __name__ == '__main__':
+  uvicorn.run('eni:app', host='127.0.0.1', port=5000, reload=True)
